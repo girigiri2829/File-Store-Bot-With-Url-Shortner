@@ -21,6 +21,7 @@ class Config(object):
 This is a Permanent FileStore Bot. 
 Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edit Permission, I will add save Uploaded File in Channel and Share a Shareable Link. 
 
+
 ╭────[ 🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅]────⍟
 │
 ├🔸 My Name: [FileStore Bot](https://t.me/{BOT_USERNAME})
@@ -32,7 +33,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Sridharan](https://telegram.me/Gi_adminb)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Sridharan](https://telegram.me/Gi_Tamil_Cartoons)
  
  I am Super noob Please Support My Hard Work.
 """
