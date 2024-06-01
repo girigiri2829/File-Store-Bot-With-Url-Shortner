@@ -319,7 +319,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Developer",
-                                             url="https://t.me/Gi_adminb")
+                                             url="https://t.me/Gi_Tamil_Cartoons")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -337,7 +337,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Developer",
-                                             url="https://t.me/Gi_adminb")
+                                             url="https://t.me/Gi_Tamil_Cartoons")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
