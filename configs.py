@@ -6,7 +6,7 @@ class Config(object):
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "7006299342:AAEXS9EcWmXpjTtTaCEYjCvOmr2gKCwlJbM")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "Toons1_Robot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002096181518"))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "Mhidden2history.in")
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "hidden2history.in")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "d1bda24c40588198951f1c18426c69ceefcb0fb5")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "2135601715"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://aman:hdhub4net@cluster0.f6fbxm4.mongodb.net/?retryWrites=true&w=majority")
