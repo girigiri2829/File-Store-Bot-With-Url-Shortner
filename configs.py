@@ -33,7 +33,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Sridharan](https://telegram.me/Gi_Tamil_Cartoons)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Gi Cartoons Network✨](https://telegram.me/addlist/CCrTT1vAeBRiMDQ1)
  
  I am Super noob Please Support My Hard Work.
 """
