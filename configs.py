@@ -35,7 +35,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
   ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Gi Cartoons Network✨](https://telegram.me/addlist/CCrTT1vAeBRiMDQ1)
  
- Just Send Me Video Or File I Will Give You Permanent Shareable Link.
+Just Send Me Video Or File I Will Give You Permanent Sharaable Link.
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
