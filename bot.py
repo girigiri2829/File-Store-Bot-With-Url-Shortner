@@ -390,7 +390,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("Join Channel", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
@@ -411,12 +411,15 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/Gi_Tamil_Cartoons"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/+Bqw_xhNrZ9o4OTQ1")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/Gi_Tamil_Cartoons")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
+                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
+                    ],
+                    [
+                        InlineKeyboardButton("Support Group", url="https://t.me/+Bqw_xhNrZ9o4OTQ1"),
                     ]
                 ]
             )
