@@ -3,7 +3,7 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "23049826"))
   API_HASH = os.environ.get("API_HASH", "4a4216f089ce68a3ce2c8b9b9a6fa79a")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7006299342:AAGDCx0ITKQnuNI6CFG6iSJuzv7Q-IeSpaQ")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "Toons1_Robot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002096181518"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "hidden2history.in")
