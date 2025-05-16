@@ -33,6 +33,9 @@
         "SHORTLINK_API": {
             "description": "Your Url Shortner Api Token"
         },
+        "START_PIC": {
+            "description": "Telegraph Link"
+        },
         "BOT_OWNER": {
             "description": "Bot Owner UserID"
         },
