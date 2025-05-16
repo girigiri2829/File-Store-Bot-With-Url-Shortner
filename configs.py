@@ -8,7 +8,7 @@ class Config(object):
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002096181518"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "hidden2history.in")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "d1bda24c40588198951f1c18426c69ceefcb0fb5")
-  START_PIC = os.environ.get("START_PIC","")
+  START_PIC = os.environ.get("START_PIC","https://telegra.ph/file/8b710c2ff0d3fa50c4228.jpg")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "2135601715"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://aman:hdhub4net@cluster0.f6fbxm4.mongodb.net/?retryWrites=true&w=majority")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
