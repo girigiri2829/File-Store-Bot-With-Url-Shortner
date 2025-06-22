@@ -44,7 +44,7 @@ For One File
 
 For Multiple Files
 
-• First Send One Video And Another Video Which You Want Batch After Sending All Videos Click "Save In Batch" Button You Will Get The Batch Link ✨**
+• First Send One Video And Click "Save In Batch" Button Video And Send Another Video After Sending All Videos Click "Save In Batch" Button And Click "Get Batch Link" You Will Get The Permanent Link ✨**
 """
   HOME_TEXT = """
 Hello [{}](tg://user?id={})
