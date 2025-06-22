@@ -464,7 +464,7 @@ async def button(bot: Client, cmd: CallbackQuery):
         if message_ids is None:
             await cmd.answer("Batch List Empty!", show_alert=True)
             return
-        await cmd.message.edit("**Please Wait, Generating Batch Link Work In Progress...*"")
+        await cmd.message.edit("**Please Wait, Generating Batch Link Work In Progress...**")
         await save_batch_media_in_channel(bot=bot, editable=cmd.message, message_ids=message_ids)
         MediaList[f"{str(cmd.from_user.id)}"] = []
 
