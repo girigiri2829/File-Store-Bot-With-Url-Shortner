@@ -68,7 +68,7 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
         short_link = get_short(share_link)
         await editable.edit(
             "**Here Is The Permanent Link Of Your File\n\nSharable Link:** <code>{share_link}</code> \n\n**Short Link**:<code>{short_link}</code>"
-            "**Just Click The Link To Copy Shareable Link!**",
+            "**\n\nJust Click The Link To Copy Shareable Link!**",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Sharable Link", url=share_link),
                   InlineKeyboardButton("Short Link", url=short_link)]]
@@ -107,7 +107,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
         short_link = get_short(share_link)
         await editable.edit(
             "**Here Is The Permanent Link Of Your File\n\nSharable Link:** <code>{share_link}</code> \n\n**Short Link**:<code>{short_link}</code>"
-            "**Just Click The Link To Copy Shareable Link!**",
+            "**\n\nJust Click The Link To Copy Shareable Link!**",
             reply_markup=InlineKeyboardMarkup(
                [[InlineKeyboardButton("Sharable Link", url=share_link),
                   InlineKeyboardButton("Short Link", url=short_link)]]
