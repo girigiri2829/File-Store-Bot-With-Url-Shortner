@@ -43,7 +43,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
         await bot.send_message(
             chat_id=cmd.from_user.id,
             text="**Please Join My Channel To Use Me!**\n\n"
-                 "<b>Just Click Join Channel Button And Join My Channel And Click 🔄 Refresh 🔄 Button!"<\b>,
+                 "<b>Just Click Join Channel Button And Join My Channel And Click 🔄 Refresh 🔄 Button!"<\b>",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
