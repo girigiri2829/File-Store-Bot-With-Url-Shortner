@@ -67,10 +67,10 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
         share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=GiCartoonsNetwork_{str_to_b64(str(SaveMessage.id))}"
         short_link = get_short(share_link)
         await editable.edit(
-            f"**Batch Files Stored in my Database!**\n\nHere is the Permanent Link of your files: <code>{short_link}</code> \n\n"
-            f"Just Click the link to copy shareable link!",
+            "**Here Is The Permanent Link Of Your File\n\nSharable Link:** <code>{share_link}</code> \n\n**Short Link*":<code>{short_link}</code>"
+            "**Just Click The Link To Copy Shareable Link!**",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Original Link", url=share_link),
+                [[InlineKeyboardButton("Sharable Link", url=share_link),
                   InlineKeyboardButton("Short Link", url=short_link)]]
             ),
             disable_web_page_preview=True
@@ -79,7 +79,7 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             chat_id=int(Config.LOG_CHANNEL),
             text=f"#BATCH_SAVE:\n\n[{editable.reply_to_message.from_user.first_name}](tg://user?id={editable.reply_to_message.from_user.id}) Got Batch Link!",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Original Link", url=short_link),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Sharable Link", url=short_link),
                                                 InlineKeyboardButton("Short Link", url=share_link)]])
         )
     except Exception as err:
@@ -106,11 +106,10 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
         share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=GiCartoonsNetwork_{str_to_b64(file_er_id)}"
         short_link = get_short(share_link)
         await editable.edit(
-            "**Your File Stored in my Database!**\n\n"
-            f"Here is the Permanent Link of your file: <code>{short_link}</code> \n\n"
-            "Just Click the link to copy shareable link!",
+            "**Here Is The Permanent Link Of Your File\n\nSharable Link:** <code>{share_link}</code> \n\n**Short Link*":<code>{short_link}</code>"
+            "**Just Click The Link To Copy Shareable Link!**",
             reply_markup=InlineKeyboardMarkup(
-               [[InlineKeyboardButton("Original Link", url=share_link),
+               [[InlineKeyboardButton("Sharable Link", url=share_link),
                   InlineKeyboardButton("Short Link", url=short_link)]]
             ),
             disable_web_page_preview=True
