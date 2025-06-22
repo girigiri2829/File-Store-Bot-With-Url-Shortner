@@ -74,15 +74,14 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/Gi_Tamil_Cartoons")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/Gi_Cartoons_Network")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/+Bqw_xhNrZ9o4OTQ1"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/+p3K0SYpWTQljMGI1"),
                         
                     ]
                 ]
@@ -196,7 +195,7 @@ async def broadcast_handler_open(_, m: Message):
 async def sts(_, m: Message):
     total_users = await db.total_users_count()
     await m.reply_text(
-        text=f"**Total Users in DB:** `{total_users}`",
+        text=f"**Total Users in DB: `{total_users}`\n\nᴍᴀᴅᴇ ʙʏ - @GI_CARTOONS_OFFICIAL**",
         quote=True
     )
 
@@ -327,7 +326,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Developer",
-                                             url="https://t.me/Gi_Tamil_Cartoons")
+                                             url="@GiToonsOwner")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -345,7 +344,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Developer",
-                                             url="https://t.me/Gi_Tamil_Cartoons")
+                                             url="@GiToonsOwner")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -362,15 +361,14 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/Gi_Tamil_Cartoons")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/Gi_Cartoons_Network")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/+Bqw_xhNrZ9o4OTQ1"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/+p3K0SYpWTQljMGI1"),
                         
                     ]
                 ]
@@ -419,15 +417,14 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/Gi_Tamil_Cartoons")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/Gi_Cartoons_Network")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/+Bqw_xhNrZ9o4OTQ1"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/+p3K0SYpWTQljMGI1"),
                     ]
                 ]
             )
