@@ -67,7 +67,7 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
         share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=GiCartoonsNetwork_{str_to_b64(str(SaveMessage.id))}"
         short_link = get_short(share_link)
         await editable.edit(
-            "**Here Is The Permanent Link Of Your File\n\nSharable Link:** <code>https://telegram.me/{Config.BOT_USERNAME}?start=GiCartoonsNetwork_{str_to_b64(str(SaveMessage.id))}</code> \n\n**Short Link**:<code>get_short(share_link)</code>"
+            "**Here Is The Permanent Link Of Your File\n\nSharable Link:** <code>https://telegram.me/{Config.BOT_USERNAME}?start=GiCartoonsNetwork_{str_to_b64(str(SaveMessage.id))}</code> \n\n**Short Link**:<code>{short_link}</code>"
             "**\n\nJust Click The Link To Copy Shareable Link!**",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Sharable Link", url=share_link),
